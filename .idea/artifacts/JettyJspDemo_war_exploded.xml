@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JettyJspDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/excel</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JettyJspDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: org.webjars.bower:jquery:1.12.4" />
+          <element id="library" level="project" name="Maven: org.webjars:d3js:4.2.1" />
+          <element id="library" level="project" name="Maven: com.google.zxing:core:3.2.1" />
+          <element id="library" level="project" name="Maven: org.webjars.bower:angular:1.5.8" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/excel/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JettyJspDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
